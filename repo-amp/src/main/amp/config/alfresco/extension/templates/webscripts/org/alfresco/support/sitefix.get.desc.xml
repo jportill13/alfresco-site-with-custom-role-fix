@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>List Sites Missing Role Web Script</shortname>
+    <description>Web Script that retrieves a list of sites missing the custom share role group</description>
+    <url>/support/sitefix?customRoleName={CustomShareRoleName}</url>
+    <family>Alfresco Support</family>
+    <authentication>admin</authentication>
+    <format default="html" />
+</webscript>

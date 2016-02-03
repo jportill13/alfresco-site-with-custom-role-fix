@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Fix Sites Groups In Wrong Zone Web Script</shortname>
+    <description>Web script that fixes Share sites with custom role groups created in the wrong zone</description>    
+    <url>/support/rolefix?customRoleName={CustomShareRoleName}</url>
+    <family>Alfresco Support</family>
+    <authentication>admin</authentication>
+    <format default="json" />
+</webscript>

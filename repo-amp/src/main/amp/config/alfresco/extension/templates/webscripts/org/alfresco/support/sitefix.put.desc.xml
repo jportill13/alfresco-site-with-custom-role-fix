@@ -1,0 +1,8 @@
+<webscript>
+    <shortname>Fix Sites Missing Role Web Script</shortname>
+    <description>Web script that fixes Share sites without custom share role</description>    
+    <url>/support/sitefix?customRoleName={CustomShareRoleName}</url>
+    <family>Alfresco Support</family>
+    <authentication>admin</authentication>
+    <format default="json" />
+</webscript>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+
+	
+<!-- Bootstrap the custom permission model -->
+<!-- Uncomment this bean after sites have been created in the repository for testing a custom share role.-->
+<!--  
+  <bean id="custom_permissionDefinition" parent="permissionModelBootstrap">
+    <property name="model"
+              value="alfresco/extension/model/fixsitedemoPermissionDefinitions.xml"/>
+  </bean>
+-->  
+</beans>
